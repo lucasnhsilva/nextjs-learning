@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function Header() {
   return (
-    <header className="flex flex-row items-center justify-between bg-gray-800 text-white p-4">
+    <header className="flex flex-row items-center justify-between bg-[var(--background)] text-[var(--foreground)] p-4">
       <h1 className="inline">Aulão Nextjs</h1>
 
       <nav className="min-w-md flex flex-nowrap flex-row items-center justify-end">
